@@ -1,0 +1,14 @@
+; Include forcefield parameters
+#include "/project/depablo/mleyf3/DMREF/oplsaa.ff/forcefield.itp"
+#include "/project/depablo/mleyf3/DMREF/oplsaa.ff/atom_types_LigParGen_EXTRA.itp"
+
+; Include topologies
+#include "/project/depablo/mleyf3/DMREF/PhPTZ/topology_files/PhPTZ_n30/PhPTZ_n30_itptoff.itp"
+
+[ system ]
+; Name
+Bulk PhPTZ
+
+[ molecules ]
+; Compound        #mols
+PhPTZ               100

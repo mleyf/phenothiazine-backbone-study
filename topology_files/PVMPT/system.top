@@ -1,0 +1,14 @@
+; Include forcefield parameters
+#include "/project/depablo/mleyf3/DMREF/oplsaa.ff/forcefield.itp"
+#include "/project/depablo/mleyf3/DMREF/oplsaa.ff/atom_types_LigParGen_EXTRA.itp"
+
+; Include topologies
+#include "/project/depablo/mleyf3/DMREF/PVMPT/topology_files/PVMPT_n30/PVMPT_n30_itptoff.itp"
+
+[ system ]
+; Name
+Bulk PVMPT
+
+[ molecules ]
+; Compound        #mols
+PVMPT               100
